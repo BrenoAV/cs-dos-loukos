@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 2899042724403765080}
   - component: {fileID: 2899042724403765081}
   - component: {fileID: 2899042724403765079}
-  - component: {fileID: 2899042724403765078}
   m_Layer: 0
   m_Name: alvo_marcelo
   m_TagString: Alvo
@@ -261,15 +260,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22204113, y: 0.17109984}
   m_EdgeRadius: 0
---- !u!114 &2899042724403765078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2899042724403765088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ded8010f1cee76342adf146162a895fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

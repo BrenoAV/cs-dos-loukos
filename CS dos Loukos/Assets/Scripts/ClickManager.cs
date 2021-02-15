@@ -7,11 +7,10 @@ public class ClickManager : MonoBehaviour
     public AudioSource audioAk47;
     public AudioSource audioAcertou;
 
-    // Update is called once per frame
     void Update()
     {
         // Verifica o clique do mouse
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && !GameManager.instance.fimJogo)
         {
             audioAk47.Play(0);
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);

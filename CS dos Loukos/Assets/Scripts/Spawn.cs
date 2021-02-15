@@ -15,7 +15,7 @@ public class Spawn : MonoBehaviour
         {-5.12f, 0.65f}, {3.52f , 0.17f}, 
         {5.83f, -3.04f}, {-5.76f, -2.61f}, 
         {-1.82f, 1.34f}, {2.02f, -2.81f},
-        {-2.81f, -2.80f}
+        {-2.81f, -2.80f}, {-0.84f, 1.62f}
     };
     // Start is called before the first frame update
     void Start()
@@ -51,7 +51,6 @@ public class Spawn : MonoBehaviour
     public void Spawn_Alvo()
     {
         int num_alvo = Random.Range(0, inimigos.Length);
-        int num_pos = Random.Range(0, 4);
         this.Alvo_Atual = Instantiate(inimigos[num_alvo], new Vector3(spawn_pos[num_alvo, 0], 
                                             spawn_pos[num_alvo, 1], 0.0f), 
                                             Quaternion.identity);
